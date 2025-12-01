@@ -1219,6 +1219,18 @@ section {
     margin-top: 1rem;
 }
 
+.book-cover {
+    margin-top: 1rem;
+}
+
+.book-cover-image {
+    width: 100%;
+    max-width: 260px;
+    border-radius: 12px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+    display: block;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-menu {
