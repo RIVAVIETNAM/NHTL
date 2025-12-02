@@ -1413,12 +1413,30 @@ section {
         gap: 1.5rem;
     }
 
+    /* Ensure all text descriptions are justified on mobile */
+    p {
+        text-align: justify !important;
+    }
+
+    /* Exceptions - keep center alignment for specific elements */
+    .stat-item p,
+    .hero-content p,
+    .footer p,
+    .hero-description {
+        text-align: center !important;
+    }
+
     .about-text p,
     .publication-description,
     .essay-description,
     .resume-description,
-    .recommendation-description {
-        text-align: justify;
+    .recommendation-description,
+    .section-description,
+    .project-description,
+    .invited-description,
+    .award-description,
+    .projects-note p {
+        text-align: justify !important;
     }
 
     .invited-icon {
@@ -1526,6 +1544,33 @@ section {
 
     .section-description {
         font-size: 0.9rem;
+        text-align: justify !important;
+    }
+
+    /* Ensure all text descriptions are justified on small mobile */
+    p {
+        text-align: justify !important;
+    }
+
+    /* Exceptions - keep center alignment for specific elements */
+    .stat-item p,
+    .hero-content p,
+    .footer p,
+    .hero-description {
+        text-align: center !important;
+    }
+
+    .about-text p,
+    .publication-description,
+    .essay-description,
+    .resume-description,
+    .recommendation-description,
+    .section-description,
+    .project-description,
+    .invited-description,
+    .award-description,
+    .projects-note p {
+        text-align: justify !important;
     }
 
     .btn {
