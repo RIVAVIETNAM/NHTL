@@ -350,7 +350,9 @@ section {
     font-size: 1rem;
     color: var(--text-light);
     font-weight: 500;
-    white-space: nowrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
 
 /* Projects Section */
@@ -446,6 +448,8 @@ section {
     font-weight: 600;
     margin-bottom: 1rem;
     color: var(--text-dark);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .project-description {
@@ -594,6 +598,8 @@ section {
     font-weight: 600;
     margin-bottom: 0.5rem;
     color: var(--text-dark);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .invited-role {
@@ -609,6 +615,8 @@ section {
     color: var(--primary-color);
     font-weight: 600;
     margin-bottom: 1rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .invited-description {
@@ -1025,6 +1033,8 @@ section {
     color: var(--primary-color);
     font-weight: 600;
     margin-bottom: 1rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .timeline-content p {
