@@ -39,7 +39,6 @@ p {
 
 /* Exceptions - keep center alignment for specific elements */
 .stat-item p,
-.recommendation-card p,
 .hero-content p,
 .footer p {
     text-align: center;
@@ -533,8 +532,14 @@ section {
     padding: 2rem;
     border-radius: 16px;
     box-shadow: var(--shadow-md);
-    text-align: center;
     transition: all 0.3s ease;
+}
+
+.award-icon,
+.award-card h3,
+.award-meta,
+.award-link {
+    text-align: center;
 }
 
 .award-card:hover {
@@ -833,8 +838,14 @@ section {
     padding: 2rem;
     border-radius: 16px;
     box-shadow: var(--shadow-md);
-    text-align: center;
     transition: all 0.3s ease;
+}
+
+.recommendation-icon,
+.recommendation-card h3,
+.recommendation-role,
+.recommendation-link {
+    text-align: center;
 }
 
 .recommendation-card:hover {
