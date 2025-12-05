@@ -1,3 +1,23 @@
-*.log
-.DS_Store
-Thumbs.db
+# PDF password file (local, not committed)
+pdf_password.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Backup files
+*.backup
+*.bak
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
